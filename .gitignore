@@ -1,0 +1,29 @@
+# =========================================
+# Dependencies
+# =========================================
+# Ignore the Composer vendor directory.
+# This folder is rebuilt by running "composer install".
+/vendor/
+
+# =========================================
+# Configuration
+# =========================================
+# Ignore the local settings file that contains secrets like database passwords.
+# The .example file will be committed so others know the structure.
+settings.php
+
+# =========================================
+# IDE & OS Files
+# =========================================
+# Ignore Visual Studio Code specific files and folders.
+.vscode/
+.vscodeCounter/
+
+# Ignore macOS specific files.
+.DS_Store
+
+# =========================================
+# Logs & Temporary Files
+# =========================================
+# Ignore common log files.
+*.log

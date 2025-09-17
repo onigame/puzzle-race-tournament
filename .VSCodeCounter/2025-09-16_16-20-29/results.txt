@@ -1,0 +1,389 @@
+Date : 2025-09-16 16:20:29
+Directory : /home/whuang/wpfgp.org/public_html/playoffs
+Total : 264 files,  17475 codes, 5611 comments, 4241 blanks, all 27327 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PHP        |        211 |     12,412 |      5,440 |      3,514 |     21,366 |
+| JSON       |         16 |      2,228 |          0 |         16 |      2,244 |
+| Markdown   |         20 |      1,145 |          0 |        445 |      1,590 |
+| JavaScript |          6 |      1,140 |        127 |        173 |      1,440 |
+| PostCSS    |          4 |        339 |         32 |         51 |        422 |
+| XML        |          4 |         86 |          1 |         14 |        101 |
+| MS SQL     |          1 |         71 |         11 |          9 |         91 |
+| YAML       |          2 |         54 |          0 |         19 |         73 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                       | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                          |        264 |     17,475 |      5,611 |      4,241 |     27,327 |
+| . (Files)                                                                                                                  |          5 |        928 |         13 |         14 |        955 |
+| public                                                                                                                     |         11 |      2,174 |        222 |        378 |      2,774 |
+| public (Files)                                                                                                             |          1 |        695 |         63 |        154 |        912 |
+| public/css                                                                                                                 |          4 |        339 |         32 |         51 |        422 |
+| public/js                                                                                                                  |          6 |      1,140 |        127 |        173 |      1,440 |
+| src                                                                                                                        |          7 |        368 |          5 |         48 |        421 |
+| src/pages                                                                                                                  |          7 |        368 |          5 |         48 |        421 |
+| vendor                                                                                                                     |        241 |     14,005 |      5,371 |      3,801 |     23,177 |
+| vendor (Files)                                                                                                             |          1 |         17 |          1 |          5 |         23 |
+| vendor/composer                                                                                                            |         11 |      1,669 |        392 |        157 |      2,218 |
+| vendor/fig                                                                                                                 |          5 |        200 |         54 |         84 |        338 |
+| vendor/fig/http-message-util                                                                                               |          5 |        200 |         54 |         84 |        338 |
+| vendor/fig/http-message-util (Files)                                                                                       |          3 |        117 |          0 |         78 |        195 |
+| vendor/fig/http-message-util/src                                                                                           |          2 |         83 |         54 |          6 |        143 |
+| vendor/nikic                                                                                                               |         36 |      1,646 |        322 |        481 |      2,449 |
+| vendor/nikic/fast-route                                                                                                    |         36 |      1,646 |        322 |        481 |      2,449 |
+| vendor/nikic/fast-route (Files)                                                                                            |          5 |        317 |          1 |         96 |        414 |
+| vendor/nikic/fast-route/src                                                                                                |         19 |        613 |        226 |        163 |      1,002 |
+| vendor/nikic/fast-route/src (Files)                                                                                        |          8 |        166 |        171 |         52 |        389 |
+| vendor/nikic/fast-route/src/DataGenerator                                                                                  |          5 |        220 |         32 |         54 |        306 |
+| vendor/nikic/fast-route/src/Dispatcher                                                                                     |          5 |        164 |         10 |         45 |        219 |
+| vendor/nikic/fast-route/src/RouteParser                                                                                    |          1 |         63 |         13 |         12 |         88 |
+| vendor/nikic/fast-route/test                                                                                               |         12 |        716 |         95 |        222 |      1,033 |
+| vendor/nikic/fast-route/test (Files)                                                                                       |          2 |        101 |          0 |         20 |        121 |
+| vendor/nikic/fast-route/test/Dispatcher                                                                                    |          5 |        394 |         89 |        175 |        658 |
+| vendor/nikic/fast-route/test/HackTypechecker                                                                               |          4 |         75 |          4 |         20 |         99 |
+| vendor/nikic/fast-route/test/HackTypechecker (Files)                                                                       |          1 |         33 |          4 |          8 |         45 |
+| vendor/nikic/fast-route/test/HackTypechecker/fixtures                                                                      |          3 |         42 |          0 |         12 |         54 |
+| vendor/nikic/fast-route/test/RouteParser                                                                                   |          1 |        146 |          2 |          7 |        155 |
+| vendor/psr                                                                                                                 |         41 |        807 |      1,386 |        294 |      2,487 |
+| vendor/psr/container                                                                                                       |          5 |         54 |         30 |         19 |        103 |
+| vendor/psr/container (Files)                                                                                               |          2 |         35 |          0 |          7 |         42 |
+| vendor/psr/container/src                                                                                                   |          3 |         19 |         30 |         12 |         61 |
+| vendor/psr/http-factory                                                                                                    |          8 |         90 |         98 |         26 |        214 |
+| vendor/psr/http-factory (Files)                                                                                            |          2 |         46 |          0 |          6 |         52 |
+| vendor/psr/http-factory/src                                                                                                |          6 |         44 |         98 |         20 |        162 |
+| vendor/psr/http-message                                                                                                    |         12 |        390 |      1,068 |        171 |      1,629 |
+| vendor/psr/http-message (Files)                                                                                            |          3 |         61 |          0 |         19 |         80 |
+| vendor/psr/http-message/docs                                                                                               |          2 |        224 |          0 |         67 |        291 |
+| vendor/psr/http-message/src                                                                                                |          7 |        105 |      1,068 |         85 |      1,258 |
+| vendor/psr/http-server-handler                                                                                             |          3 |         52 |         11 |         10 |         73 |
+| vendor/psr/http-server-handler (Files)                                                                                     |          2 |         44 |          0 |          6 |         50 |
+| vendor/psr/http-server-handler/src                                                                                         |          1 |          8 |         11 |          4 |         23 |
+| vendor/psr/http-server-middleware                                                                                          |          3 |         52 |         14 |         10 |         76 |
+| vendor/psr/http-server-middleware (Files)                                                                                  |          2 |         44 |          0 |          6 |         50 |
+| vendor/psr/http-server-middleware/src                                                                                      |          1 |          8 |         14 |          4 |         26 |
+| vendor/psr/log                                                                                                             |         10 |        169 |        165 |         58 |        392 |
+| vendor/psr/log (Files)                                                                                                     |          2 |         69 |          0 |         17 |         86 |
+| vendor/psr/log/src                                                                                                         |          8 |        100 |        165 |         41 |        306 |
+| vendor/ralouphie                                                                                                           |          3 |         78 |          5 |         19 |        102 |
+| vendor/ralouphie/getallheaders                                                                                             |          3 |         78 |          5 |         19 |        102 |
+| vendor/ralouphie/getallheaders (Files)                                                                                     |          2 |         44 |          0 |         11 |         55 |
+| vendor/ralouphie/getallheaders/src                                                                                         |          1 |         34 |          5 |          8 |         47 |
+| vendor/selective                                                                                                           |          7 |        400 |         59 |        108 |        567 |
+| vendor/selective/basepath                                                                                                  |          7 |        400 |         59 |        108 |        567 |
+| vendor/selective/basepath (Files)                                                                                          |          4 |        290 |          1 |         68 |        359 |
+| vendor/selective/basepath/.github                                                                                          |          1 |         38 |          0 |         14 |         52 |
+| vendor/selective/basepath/.github/workflows                                                                                |          1 |         38 |          0 |         14 |         52 |
+| vendor/selective/basepath/src                                                                                              |          2 |         72 |         58 |         26 |        156 |
+| vendor/slim                                                                                                                |        127 |      8,920 |      3,051 |      2,588 |     14,559 |
+| vendor/slim/psr7                                                                                                           |         49 |      5,355 |      1,341 |      1,461 |      8,157 |
+| vendor/slim/psr7 (Files)                                                                                                   |          2 |         93 |          0 |          7 |        100 |
+| vendor/slim/psr7/src                                                                                                       |         18 |      1,887 |        916 |        535 |      3,338 |
+| vendor/slim/psr7/src (Files)                                                                                               |         11 |      1,586 |        762 |        433 |      2,781 |
+| vendor/slim/psr7/src/Factory                                                                                               |          6 |        287 |         89 |         90 |        466 |
+| vendor/slim/psr7/src/Interfaces                                                                                            |          1 |         14 |         65 |         12 |         91 |
+| vendor/slim/psr7/tests                                                                                                     |         29 |      3,375 |        425 |        919 |      4,719 |
+| vendor/slim/psr7/tests (Files)                                                                                             |         14 |      2,655 |        227 |        693 |      3,575 |
+| vendor/slim/psr7/tests/Assets                                                                                              |          1 |         36 |         48 |         12 |         96 |
+| vendor/slim/psr7/tests/Factory                                                                                             |          6 |        511 |         63 |        147 |        721 |
+| vendor/slim/psr7/tests/Integration                                                                                         |          7 |        161 |         69 |         59 |        289 |
+| vendor/slim/psr7/tests/Mocks                                                                                               |          1 |         12 |         18 |          8 |         38 |
+| vendor/slim/slim                                                                                                           |         78 |      3,565 |      1,710 |      1,127 |      6,402 |
+| vendor/slim/slim (Files)                                                                                                   |          6 |        432 |          0 |         85 |        517 |
+| vendor/slim/slim/Slim                                                                                                      |         72 |      3,133 |      1,710 |      1,042 |      5,885 |
+| vendor/slim/slim/Slim (Files)                                                                                              |          5 |        537 |        233 |        118 |        888 |
+| vendor/slim/slim/Slim/Error                                                                                                |          5 |        186 |         49 |         67 |        302 |
+| vendor/slim/slim/Slim/Error (Files)                                                                                        |          1 |         25 |         11 |         11 |         47 |
+| vendor/slim/slim/Slim/Error/Renderers                                                                                      |          4 |        161 |         38 |         56 |        255 |
+| vendor/slim/slim/Slim/Exception                                                                                            |         11 |        162 |        135 |         88 |        385 |
+| vendor/slim/slim/Slim/Factory                                                                                              |         12 |        450 |        129 |        145 |        724 |
+| vendor/slim/slim/Slim/Factory (Files)                                                                                      |          2 |        221 |         30 |         56 |        307 |
+| vendor/slim/slim/Slim/Factory/Psr17                                                                                        |         10 |        229 |         99 |         89 |        417 |
+| vendor/slim/slim/Slim/Handlers                                                                                             |          5 |        268 |        141 |         79 |        488 |
+| vendor/slim/slim/Slim/Handlers (Files)                                                                                     |          1 |        185 |         80 |         50 |        315 |
+| vendor/slim/slim/Slim/Handlers/Strategies                                                                                  |          4 |         83 |         61 |         29 |        173 |
+| vendor/slim/slim/Slim/Interfaces                                                                                           |         17 |        218 |        419 |        159 |        796 |
+| vendor/slim/slim/Slim/Middleware                                                                                           |          6 |        393 |        161 |        118 |        672 |
+| vendor/slim/slim/Slim/Routing                                                                                              |         11 |        919 |        443 |        268 |      1,630 |
+| vendor/symfony                                                                                                             |         10 |        268 |        101 |         65 |        434 |
+| vendor/symfony/polyfill-php80                                                                                              |         10 |        268 |        101 |         65 |        434 |
+| vendor/symfony/polyfill-php80 (Files)                                                                                      |          5 |        225 |         57 |         48 |        330 |
+| vendor/symfony/polyfill-php80/Resources                                                                                    |          5 |         43 |         44 |         17 |        104 |
+| vendor/symfony/polyfill-php80/Resources/stubs                                                                              |          5 |         43 |         44 |         17 |        104 |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                   | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/whuang/wpfgp.org/public_html/playoffs/composer.json                                                                  | JSON       |          7 |          0 |          1 |          8 |
+| /home/whuang/wpfgp.org/public_html/playoffs/composer.lock                                                                  | JSON       |        824 |          0 |          1 |        825 |
+| /home/whuang/wpfgp.org/public_html/playoffs/create_tables.sql                                                              | MS SQL     |         71 |         11 |          9 |         91 |
+| /home/whuang/wpfgp.org/public_html/playoffs/helpers.php                                                                    | PHP        |         17 |          2 |          2 |         21 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/css/admin.css                                                           | PostCSS    |         86 |          7 |         13 |        106 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/css/display.css                                                         | PostCSS    |        120 |         13 |         17 |        150 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/css/judge.css                                                           | PostCSS    |         64 |         10 |         10 |         84 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/css/puzzle-manager.css                                                  | PostCSS    |         69 |          2 |         11 |         82 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/index.php                                                               | PHP        |        695 |         63 |        154 |        912 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/js/all-tournaments.js                                                   | JavaScript |         42 |          2 |          7 |         51 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/js/display.js                                                           | JavaScript |        332 |         82 |         65 |        479 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/js/judge.js                                                             | JavaScript |        182 |         14 |         25 |        221 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/js/manage-competitors.js                                                | JavaScript |        111 |          6 |         15 |        132 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/js/manage-tournament.js                                                 | JavaScript |        308 |         12 |         38 |        358 |
+| /home/whuang/wpfgp.org/public_html/playoffs/public/js/puzzle-manager.js                                                    | JavaScript |        165 |         11 |         23 |        199 |
+| /home/whuang/wpfgp.org/public_html/playoffs/settings.php                                                                   | PHP        |          9 |          0 |          1 |         10 |
+| /home/whuang/wpfgp.org/public_html/playoffs/src/pages/all-tournaments.php                                                  | PHP        |         61 |          0 |          5 |         66 |
+| /home/whuang/wpfgp.org/public_html/playoffs/src/pages/display.php                                                          | PHP        |         21 |          0 |          7 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/src/pages/index.php                                                            | PHP        |         59 |          0 |          6 |         65 |
+| /home/whuang/wpfgp.org/public_html/playoffs/src/pages/judge.php                                                            | PHP        |         20 |          0 |          6 |         26 |
+| /home/whuang/wpfgp.org/public_html/playoffs/src/pages/manage-competitors.php                                               | PHP        |         75 |          2 |          6 |         83 |
+| /home/whuang/wpfgp.org/public_html/playoffs/src/pages/manage-tournament.php                                                | PHP        |         93 |          2 |         13 |        108 |
+| /home/whuang/wpfgp.org/public_html/playoffs/src/pages/puzzle-manager.php                                                   | PHP        |         39 |          1 |          5 |         45 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/autoload.php                                                            | PHP        |         17 |          1 |          5 |         23 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/ClassLoader.php                                                | PHP        |        286 |        235 |         59 |        580 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/InstalledVersions.php                                          | PHP        |        196 |        147 |         54 |        397 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/autoload_classmap.php                                          | PHP        |         11 |          1 |          4 |         16 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/autoload_files.php                                             | PHP        |          8 |          1 |          4 |         13 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/autoload_namespaces.php                                        | PHP        |          5 |          1 |          4 |         10 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/autoload_psr4.php                                              | PHP        |         15 |          1 |          4 |         20 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/autoload_real.php                                              | PHP        |         35 |          4 |         12 |         51 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/autoload_static.php                                            | PHP        |         91 |          1 |          9 |        101 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/installed.json                                                 | JSON       |        850 |          0 |          1 |        851 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/installed.php                                                  | PHP        |        152 |          0 |          1 |        153 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/composer/platform_check.php                                             | PHP        |         20 |          1 |          5 |         26 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/fig/http-message-util/CHANGELOG.md                                      | Markdown   |         77 |          0 |         71 |        148 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/fig/http-message-util/README.md                                         | Markdown   |         12 |          0 |          6 |         18 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/fig/http-message-util/composer.json                                     | JSON       |         28 |          0 |          1 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/fig/http-message-util/src/RequestMethodInterface.php                    | PHP        |         15 |         17 |          3 |         35 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/fig/http-message-util/src/StatusCodeInterface.php                       | PHP        |         68 |         37 |          3 |        108 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/.travis.yml                                            | YAML       |         16 |          0 |          5 |         21 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/README.md                                              | Markdown   |        232 |          0 |         82 |        314 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/composer.json                                          | JSON       |         24 |          0 |          1 |         25 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/phpunit.xml                                            | XML        |         22 |          0 |          3 |         25 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/psalm.xml                                              | XML        |         23 |          1 |          5 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/BadRouteException.php                              | PHP        |          5 |          0 |          3 |          8 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/DataGenerator.php                                  | PHP        |          7 |         16 |          4 |         27 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/DataGenerator/CharCountBased.php                   | PHP        |         25 |          0 |          7 |         32 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/DataGenerator/GroupCountBased.php                  | PHP        |         24 |          0 |          7 |         31 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/DataGenerator/GroupPosBased.php                    | PHP        |         22 |          0 |          6 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/DataGenerator/MarkBased.php                        | PHP        |         22 |          0 |          6 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php               | PHP        |        127 |         32 |         28 |        187 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/Dispatcher.php                                     | PHP        |          9 |         14 |          4 |         27 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/Dispatcher/CharCountBased.php                      | PHP        |         25 |          0 |          7 |         32 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/Dispatcher/GroupCountBased.php                     | PHP        |         25 |          0 |          7 |         32 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/Dispatcher/GroupPosBased.php                       | PHP        |         25 |          1 |          8 |         34 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/Dispatcher/MarkBased.php                           | PHP        |         25 |          0 |          7 |         32 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/Dispatcher/RegexBasedAbstract.php                  | PHP        |         64 |          9 |         16 |         89 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/Route.php                                          | PHP        |         21 |         19 |          8 |         48 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/RouteCollector.php                                 | PHP        |         59 |         79 |         15 |        153 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/RouteParser.php                                    | PHP        |          6 |         29 |          3 |         38 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/RouteParser/Std.php                                | PHP        |         63 |         13 |         12 |         88 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/bootstrap.php                                      | PHP        |          9 |          0 |          4 |         13 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/src/functions.php                                      | PHP        |         50 |         14 |         11 |         75 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/Dispatcher/CharCountBasedTest.php                 | PHP        |         13 |          0 |          4 |         17 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/Dispatcher/DispatcherTest.php                     | PHP        |        335 |         89 |        158 |        582 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/Dispatcher/GroupCountBasedTest.php                | PHP        |         13 |          0 |          4 |         17 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/Dispatcher/GroupPosBasedTest.php                  | PHP        |         13 |          0 |          4 |         17 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/Dispatcher/MarkBasedTest.php                      | PHP        |         20 |          0 |          5 |         25 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/HackTypechecker/HackTypecheckerTest.php           | PHP        |         33 |          4 |          8 |         45 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/HackTypechecker/fixtures/all_options.php          | PHP        |         26 |          0 |          4 |         30 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/HackTypechecker/fixtures/empty_options.php        | PHP        |          8 |          0 |          4 |         12 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/HackTypechecker/fixtures/no_options.php           | PHP        |          8 |          0 |          4 |         12 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/RouteCollectorTest.php                            | PHP        |         92 |          0 |         17 |        109 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/RouteParser/StdTest.php                           | PHP        |        146 |          2 |          7 |        155 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/nikic/fast-route/test/bootstrap.php                                     | PHP        |          9 |          0 |          3 |         12 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/container/README.md                                                 | Markdown   |          8 |          0 |          6 |         14 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/container/composer.json                                             | JSON       |         27 |          0 |          1 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/container/src/ContainerExceptionInterface.php                       | PHP        |          6 |          3 |          4 |         13 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/container/src/ContainerInterface.php                                | PHP        |          8 |         24 |          5 |         37 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/container/src/NotFoundExceptionInterface.php                        | PHP        |          5 |          3 |          3 |         11 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/README.md                                              | Markdown   |          8 |          0 |          5 |         13 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/composer.json                                          | JSON       |         38 |          0 |          1 |         39 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/src/RequestFactoryInterface.php                        | PHP        |          6 |         10 |          3 |         19 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/src/ResponseFactoryInterface.php                       | PHP        |          6 |         10 |          3 |         19 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/src/ServerRequestFactoryInterface.php                  | PHP        |          6 |         16 |          3 |         25 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/src/StreamFactoryInterface.php                         | PHP        |          8 |         33 |          5 |         46 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/src/UploadedFileFactoryInterface.php                   | PHP        |         12 |         20 |          3 |         35 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-factory/src/UriFactoryInterface.php                            | PHP        |          6 |          9 |          3 |         18 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/CHANGELOG.md                                           | Markdown   |         24 |          0 |         13 |         37 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/README.md                                              | Markdown   |         11 |          0 |          5 |         16 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/composer.json                                          | JSON       |         26 |          0 |          1 |         27 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/docs/PSR7-Interfaces.md                                | Markdown   |        106 |          0 |         25 |        131 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/docs/PSR7-Usage.md                                     | Markdown   |        118 |          0 |         42 |        160 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/src/MessageInterface.php                               | PHP        |         16 |        159 |         13 |        188 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/src/RequestInterface.php                               | PHP        |         11 |        111 |          9 |        131 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/src/ResponseInterface.php                              | PHP        |          8 |         56 |          5 |         69 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/src/ServerRequestInterface.php                         | PHP        |         18 |        229 |         15 |        262 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/src/StreamInterface.php                                | PHP        |         20 |        122 |         17 |        159 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/src/UploadedFileInterface.php                          | PHP        |         11 |        105 |          8 |        124 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-message/src/UriInterface.php                                   | PHP        |         21 |        286 |         18 |        325 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-server-handler/README.md                                       | Markdown   |          8 |          0 |          5 |         13 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-server-handler/composer.json                                   | JSON       |         36 |          0 |          1 |         37 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-server-handler/src/RequestHandlerInterface.php                 | PHP        |          8 |         11 |          4 |         23 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-server-middleware/README.md                                    | Markdown   |          8 |          0 |          5 |         13 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-server-middleware/composer.json                                | JSON       |         36 |          0 |          1 |         37 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/http-server-middleware/src/MiddlewareInterface.php                  | PHP        |          8 |         14 |          4 |         26 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/README.md                                                       | Markdown   |         43 |          0 |         16 |         59 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/composer.json                                                   | JSON       |         26 |          0 |          1 |         27 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/AbstractLogger.php                                          | PHP        |          6 |          7 |          3 |         16 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/InvalidArgumentException.php                                | PHP        |          5 |          0 |          3 |          8 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/LogLevel.php                                                | PHP        |         13 |          3 |          3 |         19 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/LoggerAwareInterface.php                                    | PHP        |          6 |          6 |          3 |         15 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/LoggerAwareTrait.php                                        | PHP        |         10 |          9 |          4 |         23 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/LoggerInterface.php                                         | PHP        |         14 |         74 |         11 |         99 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/LoggerTrait.php                                             | PHP        |         38 |         50 |         11 |         99 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/psr/log/src/NullLogger.php                                              | PHP        |          8 |         16 |          3 |         27 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/ralouphie/getallheaders/README.md                                       | Markdown   |         18 |          0 |         10 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/ralouphie/getallheaders/composer.json                                   | JSON       |         26 |          0 |          1 |         27 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/ralouphie/getallheaders/src/getallheaders.php                           | PHP        |         34 |          5 |          8 |         47 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/selective/basepath/.cs.php                                              | PHP        |         79 |          1 |          3 |         83 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/selective/basepath/.github/workflows/build.yml                          | YAML       |         38 |          0 |         14 |         52 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/selective/basepath/README.md                                            | Markdown   |        125 |          0 |         59 |        184 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/selective/basepath/composer.json                                        | JSON       |         62 |          0 |          1 |         63 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/selective/basepath/phpcs.xml                                            | XML        |         24 |          0 |          5 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/selective/basepath/src/BasePathDetector.php                             | PHP        |         48 |         35 |         17 |        100 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/selective/basepath/src/BasePathMiddleware.php                           | PHP        |         24 |         23 |          9 |         56 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/LICENSE.md                                                    | Markdown   |         17 |          0 |          6 |         23 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/composer.json                                                 | JSON       |         76 |          0 |          1 |         77 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Cookies.php                                               | PHP        |        123 |         61 |         35 |        219 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Environment.php                                           | PHP        |         39 |         10 |          7 |         56 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Factory/RequestFactory.php                                | PHP        |         35 |         12 |         13 |         60 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Factory/ResponseFactory.php                               | PHP        |         20 |          8 |          8 |         36 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Factory/ServerRequestFactory.php                          | PHP        |         69 |         21 |         22 |        112 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Factory/StreamFactory.php                                 | PHP        |         64 |         16 |         16 |         96 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Factory/UploadedFileFactory.php                           | PHP        |         29 |          8 |         11 |         48 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Factory/UriFactory.php                                    | PHP        |         70 |         24 |         20 |        114 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Header.php                                                | PHP        |         42 |          5 |         17 |         64 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Headers.php                                               | PHP        |        179 |         94 |         46 |        319 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Interfaces/HeadersInterface.php                           | PHP        |         14 |         65 |         12 |         91 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Message.php                                               | PHP        |         97 |         58 |         31 |        186 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/NonBufferedBody.php                                       | PHP        |         79 |         50 |         25 |        154 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Request.php                                               | PHP        |        208 |        113 |         62 |        383 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Response.php                                              | PHP        |        142 |         47 |         28 |        217 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Stream.php                                                | PHP        |        240 |         86 |         71 |        397 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/UploadedFile.php                                          | PHP        |        163 |         80 |         37 |        280 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/src/Uri.php                                                   | PHP        |        274 |        158 |         74 |        506 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Assets/HeaderStack.php                                  | PHP        |         36 |         48 |         12 |         96 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/BodyTest.php                                            | PHP        |        312 |         16 |         95 |        423 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/CookiesTest.php                                         | PHP        |        239 |          5 |         40 |        284 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/EnvironmentTest.php                                     | PHP        |         33 |          5 |         11 |         49 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Factory/RequestFactoryTest.php                          | PHP        |         28 |          5 |         10 |         43 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Factory/ResponseFactoryTest.php                         | PHP        |         25 |         10 |          8 |         43 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Factory/ServerRequestFactoryTest.php                    | PHP        |        160 |          8 |         41 |        209 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Factory/StreamFactoryTest.php                           | PHP        |         44 |          5 |         18 |         67 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Factory/UploadedFileFactoryTest.php                     | PHP        |         68 |         22 |         25 |        115 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Factory/UriFactoryTest.php                              | PHP        |        186 |         13 |         45 |        244 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/HeaderTest.php                                          | PHP        |         39 |         10 |         13 |         62 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/HeadersTest.php                                         | PHP        |        211 |         15 |         63 |        289 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Integration/BaseTestFactories.php                       | PHP        |         30 |         17 |         11 |         58 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Integration/RequestTest.php                             | PHP        |         22 |          8 |          7 |         37 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Integration/ResponseTest.php                            | PHP        |         13 |          8 |          7 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Integration/ServerRequestTest.php                       | PHP        |         21 |          8 |          7 |         36 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Integration/StreamTest.php                              | PHP        |         28 |         10 |          9 |         47 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Integration/UploadedFileTest.php                        | PHP        |         33 |          8 |         11 |         52 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Integration/UriTest.php                                 | PHP        |         14 |         10 |          7 |         31 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/MessageTest.php                                         | PHP        |        140 |         11 |         36 |        187 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/Mocks/MessageStub.php                                   | PHP        |         12 |         18 |          8 |         38 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/NonBufferedBodyTest.php                                 | PHP        |        117 |         13 |         30 |        160 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/RequestTest.php                                         | PHP        |        347 |         18 |         94 |        459 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/ResponseTest.php                                        | PHP        |        143 |          5 |         44 |        192 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/StreamTest.php                                          | PHP        |        195 |         17 |         73 |        285 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/StringableTestObject.php                                | PHP        |         13 |          5 |          6 |         24 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/UploadedFileTest.php                                    | PHP        |        505 |         97 |         75 |        677 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/UriTest.php                                             | PHP        |        279 |          5 |        100 |        384 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/psr7/tests/bootstrap.php                                           | PHP        |         82 |          5 |         13 |        100 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/CHANGELOG.md                                                  | Markdown   |        277 |          0 |         63 |        340 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/LICENSE.md                                                    | Markdown   |         16 |          0 |          4 |         20 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/MAINTAINERS.md                                                | Markdown   |          9 |          0 |          9 |         18 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/SECURITY.md                                                   | Markdown   |          8 |          0 |          7 |         15 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/App.php                                                  | PHP        |        121 |         81 |         25 |        227 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/CallableResolver.php                                     | PHP        |        131 |         50 |         20 |        201 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Error/AbstractErrorRenderer.php                          | PHP        |         25 |         11 |         11 |         47 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Error/Renderers/HtmlErrorRenderer.php                    | PHP        |         60 |          8 |         16 |         84 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Error/Renderers/JsonErrorRenderer.php                    | PHP        |         34 |         11 |         11 |         56 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Error/Renderers/PlainTextErrorRenderer.php               | PHP        |         34 |          8 |         18 |         60 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Error/Renderers/XmlErrorRenderer.php                     | PHP        |         33 |         11 |         11 |         55 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpBadRequestException.php                    | PHP        |         11 |         12 |          7 |         30 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpException.php                              | PHP        |         43 |          9 |         14 |         66 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpForbiddenException.php                     | PHP        |         10 |         12 |          7 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpGoneException.php                          | PHP        |         10 |         12 |          7 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpInternalServerErrorException.php           | PHP        |         10 |         12 |          7 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpMethodNotAllowedException.php              | PHP        |         22 |         20 |         11 |         53 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpNotFoundException.php                      | PHP        |         10 |         11 |          7 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpNotImplementedException.php                | PHP        |         10 |         12 |          7 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpSpecializedException.php                   | PHP        |         15 |         11 |          7 |         33 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpTooManyRequestsException.php               | PHP        |         11 |         12 |          7 |         30 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Exception/HttpUnauthorizedException.php                  | PHP        |         10 |         12 |          7 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/AppFactory.php                                   | PHP        |        160 |         20 |         38 |        218 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/GuzzlePsr17Factory.php                     | PHP        |         10 |          5 |          5 |         20 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/HttpSoftPsr17Factory.php                   | PHP        |         10 |          5 |          5 |         20 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/LaminasDiactorosPsr17Factory.php           | PHP        |         10 |          5 |          5 |         20 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/NyholmPsr17Factory.php                     | PHP        |         22 |          7 |          8 |         37 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/Psr17Factory.php                           | PHP        |         60 |         23 |         19 |        102 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/Psr17FactoryProvider.php                   | PHP        |         27 |         17 |         10 |         54 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/ServerRequestCreator.php                   | PHP        |         21 |         16 |         10 |         47 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/SlimHttpPsr17Factory.php                   | PHP        |         24 |          8 |          8 |         40 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/SlimHttpServerRequestCreator.php           | PHP        |         35 |          8 |         14 |         57 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/Psr17/SlimPsr17Factory.php                       | PHP        |         10 |          5 |          5 |         20 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Factory/ServerRequestCreatorFactory.php                  | PHP        |         61 |         10 |         18 |         89 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Handlers/ErrorHandler.php                                | PHP        |        185 |         80 |         50 |        315 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Handlers/Strategies/RequestHandler.php                   | PHP        |         27 |         14 |          9 |         50 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponse.php                  | PHP        |         20 |         15 |          7 |         42 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponseArgs.php              | PHP        |         18 |         16 |          7 |         41 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Handlers/Strategies/RequestResponseNamedArgs.php         | PHP        |         18 |         16 |          6 |         40 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/AdvancedCallableResolverInterface.php         | PHP        |          8 |         15 |          6 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/CallableResolverInterface.php                 | PHP        |          7 |         10 |          5 |         22 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/DispatcherInterface.php                       | PHP        |          9 |         13 |          7 |         29 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/ErrorHandlerInterface.php                     | PHP        |         16 |          5 |          6 |         27 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/ErrorRendererInterface.php                    | PHP        |          8 |          5 |          6 |         19 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/InvocationStrategyInterface.php               | PHP        |         14 |         18 |          6 |         38 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/MiddlewareDispatcherInterface.php             | PHP        |         11 |         25 |          8 |         44 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/Psr17FactoryInterface.php                     | PHP        |         15 |         23 |         11 |         49 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/Psr17FactoryProviderInterface.php             | PHP        |          9 |         12 |          7 |         28 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/RequestHandlerInvocationStrategyInterface.php | PHP        |          6 |          5 |          5 |         16 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/RouteCollectorInterface.php                   | PHP        |         21 |         65 |         18 |        104 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/RouteCollectorProxyInterface.php              | PHP        |         25 |         81 |         21 |        127 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/RouteGroupInterface.php                       | PHP        |         13 |         21 |         10 |         44 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/RouteInterface.php                            | PHP        |         27 |         79 |         23 |        129 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/RouteParserInterface.php                      | PHP        |         12 |         34 |          8 |         54 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/RouteResolverInterface.php                    | PHP        |          9 |          3 |          6 |         18 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Interfaces/ServerRequestCreatorInterface.php             | PHP        |          8 |          5 |          6 |         19 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Logger.php                                               | PHP        |         14 |         12 |          7 |         33 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Middleware/BodyParsingMiddleware.php                     | PHP        |        126 |         38 |         38 |        202 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Middleware/ContentLengthMiddleware.php                   | PHP        |         19 |          7 |          8 |         34 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Middleware/ErrorMiddleware.php                           | PHP        |        110 |         76 |         30 |        216 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Middleware/MethodOverrideMiddleware.php                  | PHP        |         28 |          6 |         11 |         45 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Middleware/OutputBufferingMiddleware.php                 | PHP        |         50 |         12 |         14 |         76 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Middleware/RoutingMiddleware.php                         | PHP        |         60 |         22 |         17 |         99 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/MiddlewareDispatcher.php                                 | PHP        |        177 |         68 |         45 |        290 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/ResponseEmitter.php                                      | PHP        |         94 |         22 |         21 |        137 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/Dispatcher.php                                   | PHP        |         57 |          8 |         14 |         79 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/FastRouteDispatcher.php                          | PHP        |         62 |         30 |         18 |        110 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/Route.php                                        | PHP        |        192 |        122 |         51 |        365 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RouteCollector.php                               | PHP        |        174 |         82 |         47 |        303 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RouteCollectorProxy.php                          | PHP        |        103 |         62 |         32 |        197 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RouteContext.php                                 | PHP        |         59 |         10 |         21 |         90 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RouteGroup.php                                   | PHP        |         59 |         34 |         17 |        110 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RouteParser.php                                  | PHP        |         73 |         33 |         22 |        128 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RouteResolver.php                                | PHP        |         31 |         15 |         11 |         57 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RouteRunner.php                                  | PHP        |         42 |         23 |         12 |         77 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/Slim/Routing/RoutingResults.php                               | PHP        |         67 |         24 |         23 |        114 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/composer.json                                                 | JSON       |        105 |          0 |          1 |        106 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/slim/slim/psalm.xml                                                     | XML        |         17 |          0 |          1 |         18 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/Php80.php                                        | PHP        |         82 |         15 |         19 |        116 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/PhpToken.php                                     | PHP        |         57 |         34 |         16 |        107 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/README.md                                        | Markdown   |         20 |          0 |          6 |         26 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/Resources/stubs/Attribute.php                    | PHP        |         18 |          9 |          5 |         32 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/Resources/stubs/PhpToken.php                     | PHP        |          6 |          8 |          3 |         17 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/Resources/stubs/Stringable.php                   | PHP        |          7 |         11 |          3 |         21 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php          | PHP        |          6 |          8 |          3 |         17 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/Resources/stubs/ValueError.php                   | PHP        |          6 |          8 |          3 |         17 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/bootstrap.php                                    | PHP        |         29 |          8 |          6 |         43 |
+| /home/whuang/wpfgp.org/public_html/playoffs/vendor/symfony/polyfill-php80/composer.json                                    | JSON       |         37 |          0 |          1 |         38 |
+| Total                                                                                                                      |            |     17,475 |      5,611 |      4,241 |     27,327 |
++----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

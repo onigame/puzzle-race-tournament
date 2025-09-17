@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Rule 1: If the request is for the directory itself (an empty path),
+# serve the application's main index file.
+RewriteRule ^$ public/index.php [L]
+
+# Rule 2: For all other requests, pass them into the public directory
+# to be handled by the application's router.
+RewriteRule ^(.*)$ public/$1 [L]

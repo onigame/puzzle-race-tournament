@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Droid+Sans:wght@400;700&display=swap');
+
+/* ========================================= */
+/* Display Page Core Styles                  */
+/* ========================================= */
+body.display-page {
+    background-color: #1a1a1a; /* Dark background */
+    color: #ecf0f1; /* Default light text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Allow vertical scrolling for the whole page */
+}
+
+/* ========================================= */
+/* Timer Section                             */
+/* ========================================= */
+#main-timer {
+    position: relative; /* Anchor for the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 0 5%;
+    transition: height 0.5s ease-in-out;
+}
+
+#timer-display {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Timer States */
+.timer-positive {
+    font-family: 'Droid Sans', monospace;
+    font-weight: bold;
+    color: #f5e18f; /* Your preferred light yellow */
+    font-size: 40vh;
+    line-height: 0.8;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.timer-waiting {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #e74c3c; /* Red */
+    font-size: 12vh;
+    line-height: 1.1;
+    flex-direction: column; /* Stack "Waiting" and "to start" */
+}
+
+.timer-countdown .countdown-text {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 8vh;
+    z-index: 2;
+}
+
+.timer-countdown .countdown-digit {
+    position: absolute;
+    font-family: 'Droid Sans', monospace;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+}
+
+/* Paused Overlay */
+#paused-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 10vh;
+    color: #e74c3c;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    display: none;
+}
+
+/* ========================================= */
+/* Competitor Section                        */
+/* ========================================= */
+/* This specific selector ensures the grid layout applies correctly */
+body.display-page #competitors-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 2em;
+    text-align: left;
+    padding: 1em;
+    min-height: 50vh; /* Fill the bottom half of the screen */
+    box-sizing: border-box; /* Include padding in height calculation */
+}
+
+/* Individual Competitor Card Styling */
+.competitor-card {
+  background-color: #2c3e50;
+  border: 1px solid #7f8c8d;
+  border-radius: 8px;
+  padding: 1em 1.5em;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Droid Sans', sans-serif;
+  text-align: center;
+  container-type: inline-size;
+}
+
+.competitor-card h2 {
+    margin-top: 0;
+    color: #3498db; /* A bright blue for the name */
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 0.5em;
+}
+
+.competitor-card p {
+    margin-top: 0.5em;
+    color: #bdc3c7; /* Lighter gray for status text */
+}
+
+.competitor-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #ecf0f1; /* Main light text color */
+}
+
+.competitor-card li {
+    font-size: 1.1em;
+    padding: 0.2em 0;
+}
+
+.focus {
+    font-weight: 700; /* Droid Sans bold weight */
+    line-height: 1;
+    display: inline-block; /* Necessary for width calculations */
+}
+
+/* 2. A More Graceful Default Layout for .puzzle-line */
+.puzzle-line {
+  /* This simpler flex layout will keep the time next to the title */
+  display: flex;
+  flex-wrap: wrap; /* Allows the .puzzle-time to wrap below if needed */
+  align-items: baseline;
+  gap: 0.5em 1em; /* Provide vertical and horizontal spacing */
+  padding: 0.2em 0;
+}
+
+/* When the PARENT (.competitor-card) is 350px or less... */
+@container (max-width: 350px) {
+  .puzzle-line {
+    /* ...switch to the stacked, centered layout. */
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1em;
+  }
+
+  .puzzle-title, .puzzle-time {
+    /* Also center the text within each line */
+    text-align: center;
+  }
+}
+
+.extra-display-line {
+    margin-top: auto; /* Pushes this line to the bottom of the card */
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+/* ========================================= */
+/* Final Puzzle Active State                 */
+/* ========================================= */
+/* These styles apply ONLY when the body has the .final-puzzle-active class */
+
+body.final-puzzle-active #main-timer {
+  /* 1. Reduce the height of the timer container to shrink the top/bottom space. */
+  height: 38vh; /* Down from 50vh */
+}
+
+body.final-puzzle-active #competitors-container {
+  /* 2. Expand the competitor grid to fill the newly available space. */
+  min-height: 62vh; /* Up from 50vh */
+  transition: height 0.5s ease-in-out;
+}
+
+body.final-puzzle-active .timer-positive {
+  /* 3. Reduce the timer's font size to 70% of its original size (40vh * 0.7 = 28vh). */
+  font-size: 37vh;
+}

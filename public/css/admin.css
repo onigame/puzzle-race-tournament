@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 2em;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Breadcrumbs styling */
+.breadcrumbs ul {
+    padding: 0;
+    margin: 0 0 1em 0;
+    list-style: none;
+}
+.breadcrumbs li {
+    display: inline;
+    font-size: 0.9em;
+}
+.breadcrumbs li+li:before {
+    padding: 0 8px;
+    color: #6c757d;
+    content: "/\00a0";
+}
+.breadcrumbs li span {
+    color: #6c757d;
+}
+
+/* ========================================= */
+/* Manage Tournament Page Styles             */
+/* ========================================= */
+
+/* Competitor Headers Styling */
+.competitor-grid {
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr 1fr;
+    gap: 10px;
+    align-items: center; /* This is the key: it vertically centers items in each cell */
+    margin-bottom: 10px;
+}
+
+.competitor-headers {
+    padding: 0 10px;
+    font-size: 0.9em;
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.competitor-row {
+    padding: 0 10px;
+}
+
+/* Handicap Input Field Styling */
+.handicap-input {
+    width: 120px;
+    text-align: right;
+}
+
+/* Styling for the new puzzle selection lists on manage-tournament page */
+.puzzle-selection-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.puzzle-list-box {
+    list-style-type: none;
+    padding: 0.5em;
+    margin: 0;
+    border: 1px solid #ccc; /* Lighter border */
+    border-radius: 5px;
+    min-height: 200px;
+    background-color: #f8f8f8; /* Very light grey background */
+    color: #333; /* Darker text for readability */
+}
+
+.puzzle-list-box li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6em 0.5em;
+    border-bottom: 1px solid #eee; /* Lighter separator line */
+}
+
+.puzzle-list-box li:last-child {
+    border-bottom: none;
+}
+
+.puzzle-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.puzzle-controls button {
+    font-size: 0.8em;
+    padding: 4px 8px;
+}
