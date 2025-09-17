@@ -71,8 +71,15 @@ The workflow for setting up and running a tournament is as follows:
     * Assign any time handicaps for each competitor.
 5.  **Run the Tournament:** Once configured, you can start the tournament from the management page. Use the "Display" and "Judge" links for the live event.
 
+## Acknowledgments
+This project was developed with the assistance of Google Gemini.
+
 ---
+
+Created by [Wei-Hwa Huang][def]
 
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+
+[def]: https://github.com/onigame/
